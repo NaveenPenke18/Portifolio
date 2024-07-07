@@ -1,0 +1,65 @@
+.container{
+    display: flex;
+}
+.sidenav{
+    width: 5vw;
+    height: 96vh;
+    padding-top: 14%;
+    position: fixed;
+}
+.side_content{
+    margin-left:5vw;
+}
+.myNavbar{
+    width: 90vw;
+    /* margin-top: 1%; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    z-index: 1;
+    position: sticky;
+    top: 0px;
+}
+.logo{
+    font-family:  'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 40px;
+    margin-left:2% ;
+    /* color: red; */
+}
+.logo span{
+    color:red;
+}
+i{
+    font-size: 35px;
+    margin: 10px;
+    transform: 0.3s;
+}
+.mail_icon:hover{
+    transform: scale(1.2);
+    color: red;
+}
+.whatsapp_icon:hover{
+    transform: scale(1.2);
+    color: rgb(107, 218, 107);
+}
+.git_icon:hover{
+    transform: scale(1.2);
+    color: black;
+}
+.linkedin_icon:hover{
+    transform: scale(1.2);
+    color: #0077B5;
+}
+
+.navItems{
+    font-weight: bold;
+    float: right;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    font-size: 20px;
+    width: 50%;
+    margin-right: 5%;
+}

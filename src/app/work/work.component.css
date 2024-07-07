@@ -1,0 +1,72 @@
+.header{
+    font-size: 40px;
+    font-family: roboto_bold ;
+    text-align: center;
+    margin: 20px;
+}
+.header span{
+    color: red;
+}
+.container{
+    display: flex;
+    font-family: roboto_regular;
+}
+.image{
+    width: 35vw;
+    max-height: 60vh;
+
+}
+.image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.content{
+    width: 55vw;
+    border-left: 2px solid rgb(98, 98, 240);
+    position: relative;
+}
+.job_title{
+    font-size: 25px;
+    font-family: roboto_regular;
+    /* margin: 10px; */
+}
+.section{
+    padding-left: 10px;
+    margin-bottom: 15px;
+}
+.section::before{
+    content: "";
+    display: block;
+    width: 10px;
+    height: 10px;
+    background-color:rgb(71, 71, 235);
+    border-radius: 50%;
+    position: absolute;
+    left: -0.8%;
+}
+.company{
+    font-size: 20px;
+    font-family: roboto_regular;
+}
+i{
+    font-size: 20px;
+    margin-right: 10px;
+}
+.points{
+    display: flex;
+}
+.showMore{
+    margin-top: 10px;
+}
+.readMore{
+    color:rgb(43, 43, 248);
+    margin-left:2.6%;
+    cursor: pointer;
+    transform: 0.2s;
+    display: flex;
+    align-items: center;
+}
+.readMore:hover{
+    text-decoration: underline;
+}

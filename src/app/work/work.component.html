@@ -1,0 +1,87 @@
+<div data-aos="fade-up" data-aos-duration="2500">
+    <div class="header">
+        Work <span>Experience</span>
+    </div>
+    <div class="container">
+        <div class="image">
+            <img src="../../assets/experience.webp" alt="">
+        </div>
+        <div class="content">
+            <div class="section">
+                <div class="job_title">
+                    Senior System Engineer
+                </div>
+                <span class="company">Infosys</span>
+                <div>APRIL 2022 - Present</div>
+                <div class="points">
+                    <span><i class="fa-solid fa-caret-right"></i></span>
+                    <span> Developed a robust analytical service for a progressive learning web application, providing detailed user metrics such as progress tracking, average learning time, and daily active user statistics. </span>
+                </div>
+                <div class="points">
+                    <span><i class="fa-solid fa-caret-right"></i></span>
+                    <span>Designed and Implemented Kafka feature in the application to 
+                        have real time analytical metrics which was earlier comes with 
+                        1-day delay.</span>
+                </div>
+                <div class="points">
+                    <span><i class="fa-solid fa-caret-right"></i></span>
+                    <span>Transformed the NodeJS codebase, comprising over 200 APIs, 
+                        into Spring Boot, resulting 20% increase in system efficiency due 
+                        to leveraging its robust computing capabilities for enhanced 
+                        performance.</span>
+                </div>
+                <div *ngIf="showAll">
+                    <div class="points">
+                        <span><i class="fa-solid fa-caret-right"></i></span>
+                        <span>Migrated the existing PostgreSQL database to Apache Druid, 
+                            which resulted in faster computing of analytical aggregations.By Configuring rollup on historical data reduced API's response time by 70%.
+                            </span>
+                    </div>
+                    <div class="points">
+                        <span><i class="fa-solid fa-caret-right"></i></span>
+                        <span> Automated manual monitoring of AWS S3 backup uploads, by 
+                            implementing email alerts for daily uploads and failed alerts, 
+                            resulting in a 90% reduction in oversight time and ensuring 
+                            timely response to any upload issues without manual Testing.
+                            </span>
+                    </div>
+                    <div class="points">
+                        <span><i class="fa-solid fa-caret-right"></i></span>
+                        <span>Implemented front-end components for Analytics portal with self explanatory graphs and charts,
+                            resulting in a 30% improvement in user interactions due to enhanced data visualization 
+                            and user interface enhancements.</span>
+                    </div> 
+                    <div class="points">
+                        <span><i class="fa-solid fa-caret-right"></i></span>
+                        <span>Created many reports with complex SQL queries in PostgreSQL 
+                            database, efficiently handling nearly 30 million records daily
+                            through query optimization techniques such as indexing, views
+                            and materialized views.
+                        
+                        </span>
+                    </div>
+                </div>
+                <span class="readMore" (click)="showAll=!showAll">{{ showAll ?'Read less':'Read more'}}
+                     <mat-icon>{{showAll?'keyboard_arrow_up':'keyboard_arrow_down'}}</mat-icon>
+                    </span>
+            </div>
+            <div class="section">
+                <div class="job_title">
+                    Graduate Engineer
+                </div>
+                <span class="company">Coromandel</span>
+                <div>SEP 2021 - APRIL 2022</div>
+                <div class="points">
+                    <span><i class="fa-solid fa-caret-right"></i></span>
+                    <span> Developed a robust analytical service for a progressive learning web application, providing detailed user metrics such as progress tracking, average learning time, and daily active user statistics. </span>
+                </div>
+                <div class="points">
+                    <span><i class="fa-solid fa-caret-right"></i></span>
+                    <span>Designed and Implemented Kafka feature in the application to 
+                        have real time analytical metrics which was earlier comes with 
+                        1-day delay.</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

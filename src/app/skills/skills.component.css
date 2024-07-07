@@ -1,0 +1,35 @@
+.header{
+    font-size: 40px;
+    font-family: roboto_bold ;
+    text-align: center;
+    margin: 20px;
+
+}
+.header span{
+    color: red;
+    
+}
+.card{
+    height: 120px;
+    width: 120px;
+    padding: 10px;
+ /* background-color: #DDDCDC80; */
+ border-radius: 5px;
+ box-shadow: 3px 3px 5px rgba(0,0,0,0.2),-3px -3px 5px rgba(0,0,0,0.2),3px -3px 5px rgba(0,0,0,0.2),-3px 3px 5px rgba(0,0,0,0.2);
+ margin: 20px;
+}
+.card img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+
+}
+.card:hover{
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.2),-5px -5px 10px rgba(0,0,0,0.2),5px -5px 10px rgba(0,0,0,0.2),-5px 5px 10px rgba(0,0,0,0.2);
+
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
