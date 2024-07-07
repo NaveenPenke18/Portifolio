@@ -10,7 +10,7 @@ export class SkillsComponent {
    getLogoPaths(){
     let paths=[]
     for(let i=0;i<this.skills_list.length;i++){
-      paths.push('../../assets/logo/'+this.skills_list[i])
+      paths.push('assets/logo/'+this.skills_list[i])
     }
     return paths
   }
